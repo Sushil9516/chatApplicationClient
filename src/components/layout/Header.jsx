@@ -78,22 +78,22 @@ const Header = () => {
         <AppBar
           position="static"
           sx={{
-            bgcolor: orange,
+            bgcolor: orange
           }}
         >
           <Toolbar>
             <Typography
               variant="h6"
               sx={{
-                display: { xs: "none", sm: "block" },
+                display: { xs: "none", sm: "block" }
               }}
             >
-              Chattu
+              Chat Application
             </Typography>
 
             <Box
               sx={{
-                display: { xs: "block", sm: "none" },
+                display: { xs: "block", sm: "none" }
               }}
             >
               <IconButton color="inherit" onClick={handleMobile}>
@@ -102,7 +102,7 @@ const Header = () => {
             </Box>
             <Box
               sx={{
-                flexGrow: 1,
+                flexGrow: 1
               }}
             />
             <Box>
